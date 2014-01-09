@@ -47,7 +47,7 @@ $query = "select * todolist";
 
  $rows = mysql_num_rows($result); 
 
-
+echo '<div id="div">';
 for ($i = 0 ; $i < $rows ; $i++)
 {
 $row = mysql_fetch_row($result);
@@ -64,7 +64,10 @@ echo <<<_END
 </ul>
 
 _END;
+
+
   };
+  echo '</div>';
 
   mysql_close($db);
 

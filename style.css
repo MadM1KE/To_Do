@@ -1,4 +1,17 @@
-P 
-{
-text-align: center
+#form {
+   display: block;
+   margin: 0 auto;
+   text-align: center;
+  
+
+
+}
+
+#div {
+
+	margin: 0 auto;
+	text-align: center;
+	border-style: solid;
+	border-color: blue;
+	width: 200px;
 }

@@ -7,9 +7,9 @@
 </script>
    <body>
        <form id="form" method ="POST" action="serverside.php" >
-              <p>Item:</p><br/>
-              <textarea name="item" value="yes"> </textarea>
-              <p>Date:</p><br/>
+              <label>Item:</label><br/>
+              <textarea name="item" value="yes"></textarea><br/>
+              <label>Date:</label><br/>
               <input name="date" type="Date">
               <div></div>
               <input name="submit" type="submit">
@@ -34,9 +34,9 @@
          }); 
 		 });
 
-</script
-
+</script>
 <div id="div"></div>
+
 
 </body>
 
